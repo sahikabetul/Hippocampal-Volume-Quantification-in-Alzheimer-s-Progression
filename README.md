@@ -66,7 +66,7 @@ from inference.UNetInferenceAgent import UNetInferenceAgent
 - **/deploy_scripts/send_volume.sh**: Processes of the listener output and executing the model
 - **/deploy_scripts/send_result.sh**: Sends the result
 - **report_study1.dcm, report_study2.dcm, report_study3.dcm**: Sample reports
-- **study*.PNG**: Screenshots of report shown in the OHIF viewer
+- **studyXXX.PNG**: Screenshots of report shown in the OHIF viewer
 - **Validation Plan - Hippocampal Volume.pdf**: FDA validation plan of algorithm
 
 <img src="https://github.com/sahikabetul/Hippocampal-Volume-Quantification-in-Alzheimer-s-Progression/blob/main/section3/out/study1-chrisjen%20avasarala.PNG" width="800px" height="auto">
