@@ -6,7 +6,7 @@ Alzheimer's disease (AD) is a progressive neurodegenerative disorder that result
 For patients exhibiting early symptoms, quantifying disease progression over time can help direct therapy and disease management.
 
 A radiological study via MRI exam is currently one of the most advanced methods to quantify the disease. In particular, the measurement of hippocampal volume has proven useful to diagnose and track progression in several brain disorders, most notably in AD. Studies have shown a reduced volume of the hippocampus in patients with AD.
-<img src="https://user-images.githubusercontent.com/54595314/147877539-f607e912-7758-40b2-8a8a-9437a2413fa8.png" width="800px" height="auto">
+<img src="https://user-images.githubusercontent.com/54595314/147877539-f607e912-7758-40b2-8a8a-9437a2413fa8.png" width="600px" height="auto">
 
 In this project, I built an end-to-end AI system which features a machine learning algorithm that integrates into a clinical-grade viewer and automatically measures hippocampal volumes of new patients, as their studies are committed to the clinical imaging archive.
 
@@ -57,7 +57,9 @@ from inference.UNetInferenceAgent import UNetInferenceAgent
 - **results.json**: Results of model
 
 **section3**: AI model integration into a clinical network and provide the auto-computed information on the hippocampal volume and validation plan
-<img src="https://video.udacity-data.com/topher/2020/March/5e813bfd_network-setup/network-setup.png" width="800px" height="auto">
+
+<img src="https://video.udacity-data.com/topher/2020/March/5e813bfd_network-setup/network-setup.png" width="500px" height="auto">
+
 - **inference_dcm.py**: Contains code that will analyze the directory of the AI server that contains the routed studies, find the right series to run algorithm on, will generate report, and push it back to our PACS
 - **/deploy_scripts/start_listener.sh**: Brings up a DCMTK's storescp and configures it to just copy everything it receives into a directory, organizing studies as one folder per study
 - **/deploy_scripts/send_volume.sh**: Processes of the listener output and executing the model
