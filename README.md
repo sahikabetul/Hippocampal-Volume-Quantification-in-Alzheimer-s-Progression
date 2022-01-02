@@ -6,6 +6,7 @@ Alzheimer's disease (AD) is a progressive neurodegenerative disorder that result
 For patients exhibiting early symptoms, quantifying disease progression over time can help direct therapy and disease management.
 
 A radiological study via MRI exam is currently one of the most advanced methods to quantify the disease. In particular, the measurement of hippocampal volume has proven useful to diagnose and track progression in several brain disorders, most notably in AD. Studies have shown a reduced volume of the hippocampus in patients with AD.
+
 <img src="https://user-images.githubusercontent.com/54595314/147877539-f607e912-7758-40b2-8a8a-9437a2413fa8.png" width="600px" height="auto">
 
 In this project, I built an end-to-end AI system which features a machine learning algorithm that integrates into a clinical-grade viewer and automatically measures hippocampal volumes of new patients, as their studies are committed to the clinical imaging archive.
