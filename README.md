@@ -1,5 +1,5 @@
 # Hippocampal Volume Quantification in Alzheimer's Progression
-## 3D Medical Image Segmentation - Udacity AI for Healthcare Course
+## 3D Medical Image Segmentation and FDA Validation Plan - Udacity AI for Healthcare Course
 
 Alzheimer's disease (AD) is a progressive neurodegenerative disorder that results in impaired neuronal (brain cell) function and eventually, cell death. AD is the most common cause of dementia. Clinically, it is characterized by memory loss, inability to learn new material, loss of language function, and other manifestations.
 
